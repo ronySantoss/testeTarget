@@ -4,18 +4,20 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		int i = 13;
-		int k = 0;
-		int soma = 0;
+		int a = 1;
+		int b = 0;
+		int aux;
+		int chosenNumber = 144;
 		
-		while(k < i) {
-			k += 1;
-			soma += k;
+		for(int i = 0; i<30; i++) {
+			System.out.println(a);
+			if(a == chosenNumber) {
+				System.out.println("Número " + chosenNumber + " detectado!");
+			}
+			aux = a;
+			a= a+b;
+			b = aux;
 		}
-		
-		System.out.println(soma);
-		
-		//Resposta da primeira questão: 91
 	}
 
 }
