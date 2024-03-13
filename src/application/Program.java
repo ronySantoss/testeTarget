@@ -4,12 +4,14 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		// a) 1, 3, 5, 7, 9
-		// b) 2, 4, 8, 16, 32, 64, 128
-		// c) 0, 1, 4, 9, 16, 25, 36, 49
-		// d) 4, 16, 36, 64, 100
-		// e) 1, 1, 2, 3, 5, 8, 13
-		//f) 2, 10, 12, 16, 17, 18, 19, 200
+	/*  Deixo um interruptor ligado até que a lâmpada esquente, 
+	 * após isso o desligo e aciono outro que eu ainda não tenha tocado e vou até as lâmpadas.
+	 *  A lâmpada que estiver acesa será a relativa ao segundo interruptor acionado, 
+	 * se a lâmpada estiver apagada, porém quente,
+	 * significa que essa lâmpada é relativa ao primeiro interruptor acionado.
+	 *  E por último, caso a lãmpada esteja apagada e fria, significa que não foi ligada,
+	 *  sendo relativa ao interruptor que nunca acionei */
+		
 	}
 
 }
